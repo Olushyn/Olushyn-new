@@ -1,6 +1,27 @@
 .copiright {
     display: flex;
+    justify-content: space-between;
+    
 }
 .footer-nav-menu {
     display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   font-family: 'Lato', sans-serif;
+    
+}
+.footer_social_item {
+    display: flex;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: inherit;
+    
+}
+.footer_social_list {
+    display: flex;
+    
+    
 }
