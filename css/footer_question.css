@@ -23,11 +23,12 @@
   flex-direction: column;
   text-align: center;
   width: 570px;
-  height: 700px;
+  height: auto;
   background-color: #fff;
   /* justify-content: center;*/
-  margin: 0 auto;
+  margin: auto;
   padding-top: 70px;
+  padding-bottom: 40px;
   min-width: 320px;
   z-index: 1;
 }
