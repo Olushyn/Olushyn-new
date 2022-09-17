@@ -2,6 +2,8 @@
   margin: auto;
   min-width: 320px;
   padding-top: 50px;
+  position: relative;
+ 
 }
 
 .footer-foto {
@@ -59,7 +61,8 @@
 .footer_social_item {
   margin: 2px;
   text-align: end;
-  width: 32px;
+  width: 40px;
+ 
 }
 
 footer li {
@@ -73,16 +76,51 @@ footer li {
 
 .footer_social_list {
   display: flex;
+ 
+  
 }
 
-.outside_border {
-  transition: all 0.2s ease;
+
+.footer-svg {
+  background-color: rgb(110, 172, 2);
+  fill: rgb(255, 255, 255);
+ stroke: rgb(110, 172, 2);
+ stroke-width: 0.9px;
+}
+
+.footer-svg:hover {
+  background-color: rgb(255, 255, 255);
+  fill: rgb(110, 172, 2);
+  border-color: rgb(24, 8, 61);
+  
+  transition-duration: 250ms;
+}
+
+
+/*.outside_border {
+ 
   fill: rgb(255, 255, 255);
 }
-.outside_border:hover {
+.outside_border:hover{
+  fill: rgb(110, 172, 2);
+  transition-duration: 400ms;
+}
+
+.inside_border {
+  
   fill: rgb(110, 172, 2);
  
+  
 }
+.inside_border:hover {
+  background-color: aliceblue;
+}
+
+.inside_border1 {
+  fill: rgb(110, 172, 2);
+}
+
+
 
 /*fill="red" — заливка цветом
 
@@ -100,13 +138,6 @@ background-color: #4791d0;
 }
 }
 </style> */
-.inside_border {
-
-  fill: rgb(110, 172, 2);
-}
-.inside_border:hover {
-  fill: rgb(255, 255, 255);
-}
 
 
 
@@ -127,6 +158,4 @@ footer a:hover {
   color: rgb(124, 221, 59);
 }
 
-footer a:hover::before {
-  width: 100%;
-}
+
