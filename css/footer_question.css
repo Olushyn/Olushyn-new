@@ -1,6 +1,6 @@
 .image-fon {
   background-image: url(../img/question_form_image.jfif);
-  height: 900px;
+  height: auto;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -15,7 +15,7 @@
   word-wrap: break-word;
   z-index: 1;
   justify-content: center;
-  box-shadow: 0 0 0 450px rgba(0, 0, 0, 0.33) inset;
+  box-shadow: 0 0 0 50000px rgba(0, 0, 0, 0.33) inset;
 }
 
 #question_form {
@@ -68,7 +68,7 @@
   border-radius: 27px;
   align-items: center;
   width: 446px;
-  height: 48px;
+  height: 52px;
   margin: 12px;
   border-color: transparent;
   border-style: solid;
@@ -86,7 +86,7 @@
   border-radius: 27px;
   align-items: center;
   width: 446px;
-  height: 48px;
+  height: 52px;
   margin: 40px;
   border-color: transparent;
   border-style: solid;
@@ -110,3 +110,12 @@
 }
 
 /*background-color: -internal-light-dark(rgb(232, 240, 254)*/
+
+
+/*
+background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img-hero-bg.jpg);
+*/
