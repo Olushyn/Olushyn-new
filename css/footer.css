@@ -1,22 +1,25 @@
 .footer_menu {
 margin: auto; 
 min-width: 320px;
+padding-top: 50px;
 }
 
 .footer-foto {
   width: 170px;
   height: auto;
+  margin-bottom: 10px;
 }
 
 
 .copiright {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 position: relative;
 min-width: 320px;
-padding-left: 20px;
-padding-right: 20px;
+padding-left: 120px;
+padding-right: 120px;
 
     margin: auto;
 }
@@ -29,34 +32,40 @@ padding-right: 20px;
    font-family: 'Lato', sans-serif; 
    align-items: center;
    min-width: 320px;
-   padding-left: 20px;
-   padding-right: 20px;
-   
-   
+   padding-left: 120px;
+   padding-right: 120px;
+}
+   .footer-service-list {
+
+   }
   
    
-}
+
 .footer-how, 
 .footer-speci, 
 .footer-service {
   justify-self: center;
+  
 }
 .logo-footer {
   justify-self: start;
   width: 180px;
   height: auto;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: Lato,sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  
+  
 }
 .footer_follow_us {
   justify-self: end;
+  text-align: end;
 }
 .footer_social_item {
-    display: flex;
-    display: block;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: inherit;
+  margin:2px;
+  text-align: end;
     
 }
 footer li {
@@ -65,6 +74,17 @@ footer li {
   font-size: 16px;
   color: rgb(58, 60, 67);
   display: flex;
+  text-align: center;
+}
+.footer_social_list {
+  display: flex;
+}
+
+.color_svg_footer {
+  fill: currentColor;
+  width: 32px;
+  transition: color .2s ease-out;
+  content: "\f16d";
 }
 
 footer a {
