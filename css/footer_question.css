@@ -48,6 +48,7 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+
 #question_form-p {
   font-size: 21px;
   font-family: Lato, sans-serif;
@@ -80,6 +81,7 @@
   min-width: 320px;
   padding-left: 20px;
 }
+
 #form-button-content {
   background-color: #92ce2b;
   border-width: 2px;
@@ -99,18 +101,19 @@
   transition: 0.3s linear;
   min-width: 320px;
 }
+
 #input-item:focus,
 #input-item:active {
   outline: none;
   border-color: rgb(40, 151, 224);
   border-width: 3px;
 }
+
 #form-button-content:hover {
   background-color: #44b749;
 }
 
 /*background-color: -internal-light-dark(rgb(232, 240, 254)*/
-
 
 /*
 background-image: linear-gradient(
