@@ -167,13 +167,15 @@ footer a:hover {
   .follow-us-p {
     font-size: 21px;
   }
+
   .footer-nav-menu {
     display: grid;
-    grid-template-columns: 20fr 10fr 20fr 20fr 20fr 20fr;
+    grid-template-columns: 20fr 20fr 20fr 20fr 20fr 20fr;
     grid-gap: 10px;
     position: relative;
     width: 100%;
   }
+
   .footer_menu {
     width: 100%;
     margin-left: auto;
@@ -181,14 +183,17 @@ footer a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer-foto {
     width: 100%;
   }
+
   .footer-how,
   .footer-speci,
   .footer-service {
     justify-self: center;
   }
+
   .copiright {
     display: flex;
     flex-direction: row;
@@ -196,6 +201,7 @@ footer a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer_social_list {
     display: flex;
     flex-direction: row;
@@ -206,21 +212,30 @@ footer a:hover {
 @media (min-width: 992px) {
   .follow-us-p {
     font-size: 23px;
+    text-align: end;
   }
+
   footer li {
     font-size: 16px;
   }
+
   .copiright {
     font-size: 15px;
   }
+
   .logo-footer {
     font-size: 14px;
   }
-  .follow-us-p {
-    text-align: end;
+
+  .footer_menu {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
   }
-}
-/*.footer_social_list {
+
+  /*.footer_social_list {
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -447,7 +462,7 @@ footer a:hover {
 stroke="green" — цвет обводки
 
 stroke-width="10" — толщина обводки*/
-/*button:hover {
+  /*button:hover {
   animation-name: background-color;
   animation-duration: 500ms;
 }
